@@ -1,4 +1,5 @@
 # Brent Crude Oil Price Analysis (2010–2026)
+
 > Exploring how global geopolitical events influence Brent crude oil prices using Python and MySQL.
 
 ---
@@ -47,28 +48,41 @@ In this project, I analyzed **Brent crude oil price data from 2010 to 2026** and
 - Oil prices show clear multi-year cycles with sharp rises during conflict periods
 - Days with geopolitical events recorded **noticeably higher average prices** compared to normal days
 - Higher severity events consistently corresponded with elevated price levels
-- Certain months showed recurring spikes, suggesting seasonal + geopolitical overlap
+- Certain months showed recurring spikes, suggesting seasonal and geopolitical overlap
+
+### Oil Price Trend (2010–2026)
+![Oil Price Trend](Visuals/Oil%20Price%20Trend.png)
+
+### Oil Price: Event Days vs Normal Days
+![Oil Price During Events vs Normal Days](Visuals/Oil%20Price%20During%20Events%20vs.%20Normal%20Days.png)
+
+---
+
+## Data Sources
+
+- **Brent Crude Oil Prices**: [EIA (U.S. Energy Information Administration)](https://www.eia.gov) / Investing.com
+- **Geopolitical Events**: Manually curated from Reuters, Wikipedia, and BBC News
 
 ---
 
 ## How to Run
 
 1. Clone this repository
-```bash
+```
 git clone https://github.com/RakshithaB2010/Brent-Oil-Geopolitical-Analysis.git
 ```
 
 2. Install dependencies
-```bash
-pip install pandas matplotlib seaborn
+```
+pip install -r requirements.txt
 ```
 
 3. Run the notebook
-```bash
-jupyter notebook oil_analysis.ipynb
+```
+jupyter notebook Oil_analysis.ipynb
 ```
 
-4. For SQL queries, import the data into MySQL and run `queries/analysis.sql`
+4. For SQL queries, import the data into MySQL and run the files in the `Queries/` folder
 
 ---
 
@@ -78,5 +92,4 @@ I'm a fresher data analyst passionate about finding patterns in real-world data.
 This project reflects my ability to work across the full analytics workflow —
 from raw data cleaning to business-level insights using both Python and SQL.
 
-📬 Connect with me on [LinkedIn](https://linkedin.com/in/rakshitha-b-59593628b) 
-                       [GitHub](https://github.com/RakshithaB2010)
+📬 Connect with me on [LinkedIn](https://linkedin.com/in/rakshitha-b-59593628b) | [GitHub](https://github.com/RakshithaB2010)
