@@ -1,0 +1,13 @@
+event_date,event_name,severity
+2010-12-17,Arab Spring,High
+2011-03-15,Libya Civil War,High
+2014-06-10,ISIS Iraq Offensive,High
+2016-01-02,Saudi-Iran Crisis,Medium
+2019-09-14,Saudi Aramco Attack,High
+2020-01-03,Soleimani Assassination,High
+2022-02-24,Russia-Ukraine War,Critical
+2023-10-07,Israel-Hamas War,High
+2024-01-12,Red Sea Attacks,Medium
+2024-04-14,Iran Drone Attack on Israel,High
+2026-02-01,US-Israel Strikes on Iran,Critical
+2026-02-07,Hormuz Closure Threat,Critical
