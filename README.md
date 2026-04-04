@@ -85,11 +85,3 @@ jupyter notebook Oil_analysis.ipynb
 4. For SQL queries, import the data into MySQL and run the files in the `Queries/` folder
 
 ---
-
-## About Me
-
-I'm a fresher data analyst passionate about finding patterns in real-world data.
-This project reflects my ability to work across the full analytics workflow —
-from raw data cleaning to business-level insights using both Python and SQL.
-
-📬 Connect with me on [LinkedIn](https://linkedin.com/in/rakshitha-b-59593628b) | [GitHub](https://github.com/RakshithaB2010)
